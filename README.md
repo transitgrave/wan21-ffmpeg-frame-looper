@@ -6,3 +6,13 @@ This ComfyUI custom node extracts the first or last frame of a video using `ffmp
 
 Clone into your ComfyUI `custom_nodes` directory:
 
+
+## Dependencies
+
+Requires `ffmpeg` to be installed and accessible in your system path.
+
+## Usage
+
+- Choose input `.mp4` path
+- Select "first" or "last" frame
+- Connect to your video synthesis pipeline
